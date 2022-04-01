@@ -1,0 +1,201 @@
+.shippingSmallContainerSubtotal {
+    display: none;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1190px) {
+    .shippingSmallContainerSubtotal {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin-bottom: 80px; */
+    }
+
+
+
+
+
+    .step-3-smallSubtotal {
+        text-align: left;
+        margin-left: 10%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        width: 54px;
+        height: 25px;
+    }
+
+    .select-shipping-text-smallSubtotal {
+        text-align: left;
+        margin-left: 10%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+
+
+
+
+
+    .subtotalSmall {
+        margin: auto;
+
+        margin-top: 20px;
+
+        /* margin-bottom: 30px; */
+        width: 310px;
+        height: 180px;
+        border: 1px solid #b3b3b3;
+        border-radius: 8px;
+        opacity: 1;
+    }
+
+
+    .subtotal-textSmall {
+        margin-top: 5px;
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        /* width: 50px; */
+        height: 20px;
+        text-align: left;
+        /* letter-spacing: 0px;
+        color: #000000;
+        opacity: 1; */
+    }
+
+
+    .borderBottomSmall {
+        padding: 3px;
+        border-bottom: 2px dashed #b3b3b3;
+        width: 165px;
+        margin-left: 80px;
+        /* margin-top: 5px; */
+    }
+
+
+    .subtotal-priceSmall {
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        height: 20px;
+        text-align: right;
+        margin-left: 120px;
+        margin-top: -28px;
+    }
+
+
+    .subtotal-text2Small {
+        margin-top: 15px;
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        height: 28px;
+        text-align: left;
+
+    }
+
+
+    .borderBottom2Small {
+
+        border-bottom: 2px dashed #b3b3b3;
+        width: 160px;
+        margin-left: 85px;
+        margin-top: -2px;
+    }
+
+
+    .subtotal-price2Small {
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        height: 28px;
+        text-align: right;
+        margin-left: 120px;
+        margin-top: -28px;
+    }
+
+
+    .subtotal-text3Small {
+        /* margin-top: 15px;
+        margin-left: 30px; */
+        padding: 10px;
+        padding-top: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        color: #33b7a6;
+        height: 28px;
+        text-align: left;
+      
+    }
+
+
+
+    .borderBottom3Small {
+        border-bottom: 2px dashed #b3b3b3;
+        width: 190px;
+        margin-left: 53px;
+        margin-top: 3px;
+    }
+
+
+    .subtotal-price3Small {
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        height: 28px;
+        text-align: right;
+        letter-spacing: 0px;
+        color: #33b7a6;
+        opacity: 1;
+        margin-left: 120px;
+        margin-top: -28px;
+    }
+
+
+    .grey-solid-bottomSmall {
+        border: 1px solid #b3b3b3;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    .bottomTextSmall {
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        
+       width: 210px;
+        height: 23px;
+        align-items: center;
+        margin-top: 5px;
+        padding-left: 10px;
+
+        text-align: left;
+        
+
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+}

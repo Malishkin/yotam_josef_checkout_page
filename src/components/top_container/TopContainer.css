@@ -1,0 +1,57 @@
+.topContainer {
+  margin-top: 5vh;
+  display: flex;
+
+  flex-flow: row nowrap;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+.top-item {
+  width: 200px;
+  display: flex;
+  flex-grow: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopify {
+  width: 154px;
+  height: 66px;
+}
+
+.reviews {
+  width: 96px;
+  height: 46px;
+}
+
+.stripe {
+  width: 132px;
+  height: 60px;
+}
+
+@media screen and (max-width: 394px) {
+  .shopify {
+    top: 98px;
+    left: 12px;
+    width: 114px;
+    height: 49px;
+  }
+
+  .reviews {
+    top: 126px;
+    left: 146px;
+    width: 70px;
+    height: 36px;
+  }
+
+  .stripe {
+    top: 100px;
+    left: 238px;
+    width: 97px;
+    height: 46px;
+  }
+}
