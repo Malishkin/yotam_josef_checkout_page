@@ -3,7 +3,7 @@ import Navbar from './components/navbar/Navbar';
 import Header from './components/header/Header';
 import TopContainer from './components/top_container/TopContainer';
 import WhatContainer from './components/what-container/WhatContainer';
-import SubTotalContainer from './components/subtotal-container/SubTotalContainer';
+
 import PreferContainer from './components/prefer-container/PreferContainer';
 import ProcessOrderYes from './components/process-order-yes-container/ProcessOrderYes';
 import FooterComp from './components/footer/FooterComp';
@@ -14,7 +14,7 @@ import BillingContainer from './components/billing-container/BillingContainer';
 import ShippingSmall from './components/shipping-small/ShippingSmall';
 import BillingSmall1 from './components/billing-small-1/BillingSmall1';
 import BillingSmall2 from './components/billing-small-2/BillingSmall2';
-import SubtotalSmall from './components/subtotal-small-step/SubtotalSmall';
+
 import PaymentSmall from './components/payment-small/PaymentSmall';
 
 function App() {
@@ -24,13 +24,13 @@ function App() {
       <Header />
       <TopContainer />
       <WhatContainer />
-      {/* <SubTotalContainer /> */}
+
       <BillingSmall1 />
-      <BillingSmall2/>
+      <BillingSmall2 />
       <ShippingSmall />
-      <PaymentSmall/>
+      <PaymentSmall />
       <PreferContainer />
-      {/* <SubtotalSmall/> */}
+
       <BillingContainer />
       <ShippingContainer />
       <PaymentInfoContainer />
