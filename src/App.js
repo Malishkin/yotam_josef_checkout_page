@@ -24,13 +24,13 @@ function App() {
       <Header />
       <TopContainer />
       <WhatContainer />
-      <SubTotalContainer />
+      {/* <SubTotalContainer /> */}
       <BillingSmall1 />
       <BillingSmall2/>
       <ShippingSmall />
       <PaymentSmall/>
       <PreferContainer />
-      <SubtotalSmall/>
+      {/* <SubtotalSmall/> */}
       <BillingContainer />
       <ShippingContainer />
       <PaymentInfoContainer />

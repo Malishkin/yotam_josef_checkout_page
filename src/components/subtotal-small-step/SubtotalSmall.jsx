@@ -1,7 +1,7 @@
 import React from 'react';
 import './SubtotalSmall.css';
 
-const SubtotalSmall = () => {
+const SubtotalSmall = (props) => {
   return (
     <>
       <div className='shippingSmallContainerSubtotal'>
@@ -13,7 +13,7 @@ const SubtotalSmall = () => {
         <div className='subtotalSmall'>
           <div className='subtotal-textSmall'>Subtotal</div>
           <div className='borderBottomSmall'> </div>
-          <div className='subtotal-priceSmall'>$37.00</div>
+          <div className='subtotal-priceSmall'>{props.total}</div>
 
           <div className='subtotal-text2Small'>Shipping</div>
           <div className='borderBottom2Small'> </div>
@@ -21,7 +21,7 @@ const SubtotalSmall = () => {
 
           <div className='subtotal-text3Small'>Total</div>
           <div className='borderBottom3Small'> </div>
-          <div className='subtotal-price3Small'>$37.00</div>
+          <div className='subtotal-price3Small'>{props.total}</div>
 
           <div className='grey-solid-bottomSmall'></div>
 

@@ -2,7 +2,8 @@ import React from 'react';
 import './SubTotalContainer.css';
 import freeShiping from '../../img/free-shiping.png';
 
-const SubTotalContainer = () => {
+const SubTotalContainer = (props) => {
+ console.log('total is ', props.total)
   return (
     <>
     
@@ -11,7 +12,7 @@ const SubTotalContainer = () => {
     <div className="subtotal">
       <div className="subtotal-text">Subtotal</div>
       <div className="borderBottom"> </div>
-      <div className="subtotal-price">$37.00</div>
+      <div className="subtotal-price">{props.total}</div>
 
       <div className="subtotal-text2">Shipping</div>
       <div className="borderBottom2"> </div>
@@ -19,7 +20,7 @@ const SubTotalContainer = () => {
 
       <div className="subtotal-text3">Total</div>
       <div className="borderBottom3"> </div>
-      <div className="subtotal-price3">$37.00</div>
+      <div className="subtotal-price3">{props.total}</div>
 
       <div className="grey-solid-bottom"></div>
 
